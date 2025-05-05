@@ -10,7 +10,7 @@ import productRouter from './routes/productRoutes.js';
 dotenv.config()
 
 const app = express();
-const PORT = 3000
+const PORT = 8000
 connectDB();
 
 app.use(express.json());
